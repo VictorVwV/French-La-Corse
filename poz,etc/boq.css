@@ -25,6 +25,21 @@
           margin: 0 auto;
           margin-bottom: 6%;
         }
+        .tit3 {
+          background: linear-gradient(to right, blue 0%, blue 33%, white 33%, white 66%, red 66%);
+          color: rgb(0, 0, 0);
+          padding: 20px;
+          font-size: 18px;
+          font-family: Arial, sans-serif;
+          width: fit-content;
+          padding-right: 300px;
+          padding-left: 300px;
+          font-style: italic;
+          white-space: nowrap; /* Ensure text stays on one line */
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 6%;
+        }
 .turn{
   width:600px;
   margin-top: 30%;
@@ -44,6 +59,10 @@
 }
 .text3{
   font-size: xx-large;
+  line-height: 69px;
+}
+.text5{
+  font-size: 90px;
   line-height: 69px;
 }
 .cen3{
