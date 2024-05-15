@@ -1,0 +1,189 @@
+
+.tit{
+  background: linear-gradient(to right, blue 0%, blue 33%, white 33%, white 66%, red 66%);
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            width: fit-content;
+            margin: auto;
+            font-style: italic;
+           
+        }
+        .tit2 {
+          background: linear-gradient(to right, blue 0%, blue 33%, white 33%, white 66%, red 66%);
+          color: rgb(0, 0, 0);
+          padding: 20px;
+          font-size: 18px;
+          font-family: Arial, sans-serif;
+          width: fit-content;
+          padding-right: 300px;
+          padding-left: 300px;
+          font-style: italic;
+          white-space: nowrap; /* Ensure text stays on one line */
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 6%;
+        }
+.turn{
+  width:600px;
+  margin-top: 30%;
+  height: 400px;
+}
+.text{
+  font-size: 20px;
+ line-height: 180.3%; 
+}
+.text{
+  font-size: 20px;
+  line-height: 180.3%; 
+}
+.text2{
+  font-size: 25px;
+  line-height: 40px; 
+}
+.text3{
+  font-size: xx-large;
+  line-height: 69px;
+}
+.cen3{
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-gap: 3%;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  margin-bottom: -30%;
+}
+.cen2{
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-gap: 3%;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  margin-bottom: -30%;
+}
+.stan{
+  margin-top: 16%;
+  width: 30vw;
+}
+.corp {
+  background-image: url("carte-corse-petit.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 1800%;
+}
+.Pv{
+  width: 100%;
+  height: 80%;
+}
+.pct{
+  color: yellowgreen;
+}
+.line{
+  margin-left: 10%;
+}
+.spat{
+  margin-top: 30px;
+}
+.box{
+  padding: auto;
+  margin-top: 9%;
+  margin-left: 14%;
+}
+a{
+  display: block;
+}
+.but-text{
+  font-size: 60px;
+  color: black;
+}
+.dus{
+  display: grid;
+  grid-template-columns: 100px, 3fr;
+}
+.but2{
+  color: burlywood;
+  background-color: rgb(56, 134, 134);
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+  margin-left: 33%;
+  margin-bottom: 4%;
+
+}
+.but2:hover{
+  opacity: 0.6;
+}
+.but1{
+  color: burlywood;
+  background-color: rgb(56, 134, 134);
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+.but1:hover{
+  opacity: 0.6;
+}
+.but3{
+  color: burlywood;
+  background-color: rgb(56, 134, 134);
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+  margin-left: 26%;
+  margin-bottom: 4%;
+
+}
+.but3:hover{
+  opacity: 0.6;
+}
+@media only screen and (max-width:1300px) {
+  .corp{
+    width: 800px;
+    height: 1200px;
+  }
+  .cen3{
+    margin-left: 50%;
+  }
+  .tit2{
+    margin-bottom: 10%;
+  }
+  .tit{
+    margin-left: 90%;
+  }
+  .cen2{
+    margin-left: 70%;
+    align-items: center;
+    text-align: center;
+  }
+  .turn{
+    margin-top: -20%;
+    margin-bottom: 900px;
+    margin-left: -50%;
+  }
+  .cen3{
+    margin-left: 70%;
+    align-items: center;
+    text-align: center;
+  }
+  .stan{
+    width: 800px ;
+    height: 600px;
+    margin-left: -50%;
+    margin-bottom: 900px;
+  }
+  .Pv{
+    width: 800px ;
+    height: 600px;
+    margin-left: -50%;
+    margin-bottom: 900px;
+  }
+}
